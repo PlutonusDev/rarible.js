@@ -1,0 +1,20 @@
+{
+  "name": "rarible.js",
+  "version": "0.0.1",
+  "description": "A comprehensive typescript library for interacting with the Rarible API.",
+  "main": "build/index.js",
+  "repository": "https://github.com/PlutonusDev/rarible.js",
+  "author": "PlutonusDev <plutonus.stream@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf ./build",
+    "test": "yarn build && jest --passWithNoTests",
+    "verify": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.1-rc"
+  }
+}
